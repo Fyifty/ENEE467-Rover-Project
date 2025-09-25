@@ -1,0 +1,444 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.19263907280641243 0.08709479505663847 0.9773968919033494 2.309421064542919
+  position 0.45819421667170945 -0.5189695246669213 0.3405040864819462
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  contactMaterial "concrete"
+  floorSize 2 2
+}
+Robot {
+  translation 0 0 0.09
+  children [
+    Pose {
+      translation 0.016086 -0.08528 0.272765
+      rotation 0 1 0 1.5708
+      children [
+        Shape {
+          appearance DEF left_motor_material PBRAppearance {
+            baseColor 0.647059 0.647059 0.647059
+            roughness 1
+            metalness 0
+          }
+          geometry DEF left_motor Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.088692 -0.18808 -0.027359
+      rotation 0 0 -1 1.5708
+      children [
+        Shape {
+          appearance DEF base_plate_material PBRAppearance {
+            baseColor 0.625294 0.625294 0.625294
+            transparency 0.7
+            roughness 1
+            metalness 0
+          }
+          geometry DEF base_plate Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/base_plate.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.473714 0.094688 -0.046859
+      rotation 1e-06 -1 -1e-06 3.141593
+      children [
+        Shape {
+          appearance DEF front_wheel_upper_joint_material PBRAppearance {
+            baseColor 0.498039 0.498039 0.498039
+            roughness 1
+            metalness 0
+          }
+          geometry DEF front_wheel_upper_joint Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_upper_joint.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.472714 -0.220152 -0.046859
+      rotation 0 0 -1 3.14159
+      children [
+        Shape {
+          appearance DEF front_wheel_bracket_material PBRAppearance {
+            baseColor 0.101961 0.101961 0.101961
+            roughness 1
+            metalness 0
+          }
+          geometry DEF front_wheel_bracket Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_bracket.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.148629 0.205404 -0.027359
+      rotation 1 0 0 3.14159
+      children [
+        Shape {
+          appearance DEF left_motor_bracket_material PBRAppearance {
+            baseColor 0.352941 0.34902 0.34902
+            roughness 1
+            metalness 0
+          }
+          geometry DEF left_motor_bracket Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor_bracket.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.124871 0.087575 -0.024359
+      rotation 0 0 -1 1.5708
+      children [
+        Shape {
+          appearance DEF battery_material PBRAppearance {
+            baseColor 0.011765 0.505882 0.905882
+            roughness 1
+            metalness 0
+          }
+          geometry DEF battery Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/battery.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.119292 0.094404 -0.021359
+      children [
+        Shape {
+          appearance DEF esp32_material PBRAppearance {
+            baseColor 0.262745 0.282353 0.301961
+            roughness 1
+            metalness 0
+          }
+          geometry DEF esp32 Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/esp32.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.20396 0.300238 -0.021359
+      children [
+        Shape {
+          appearance DEF motor_controller_material PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry DEF motor_controller Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/motor_controller.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation -0.019073 0.115532 0.272765
+      rotation 0.7071052811840065 1.0000003976552372e-06 -0.7071082811851994 3.141591
+      children [
+        Shape {
+          appearance DEF right_motor_material PBRAppearance {
+            baseColor 0.647059 0.647059 0.647059
+            roughness 1
+            metalness 0
+          }
+          geometry DEF right_motor Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.26251 0.228404 -0.021359
+      children [
+        Shape {
+          appearance DEF voltage_regulator_material PBRAppearance {
+            baseColor 0.086275 0.317647 0.690196
+            roughness 1
+            metalness 0
+          }
+          geometry DEF voltage_regulator Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/voltage_regulator.stl"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.145642 0.005848 -0.027359
+      rotation 1e-06 -1 -1e-06 3.141593
+      children [
+        Shape {
+          appearance DEF right_motor_bracket_material PBRAppearance {
+            baseColor 0.352941 0.34902 0.34902
+            roughness 1
+            metalness 0
+          }
+          geometry DEF right_motor_bracket Mesh {
+            url [
+              "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor_bracket.stl"
+            ]
+          }
+        }
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis -1 4e-06 -4e-06
+        anchor 0.079786 0.061126 -0.050409
+      }
+      device [
+        RotationalMotor {
+          name "left_axle"
+        }
+        PositionSensor {
+          name "left_axle_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.09365350738149578 0.061019518121526166 -0.05014253339917019
+        rotation -0.5734589760594636 0.5757261287786483 0.5828243538308799 4.193225401394404
+        children [
+          Pose {
+            translation 0.464529 -0.127654 -0.0135
+            children [
+              Shape {
+                appearance DEF left_wheel_material PBRAppearance {
+                  baseColor 0.176471 0.654902 0.937255
+                  roughness 1
+                  metalness 0
+                }
+                geometry DEF left_wheel Mesh {
+                  url [
+                    "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_wheel.stl"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+        name "left_wheel"
+        contactMaterial "rubber"
+        boundingObject Cylinder {
+          height 0.0265
+          radius 0.03435
+        }
+        physics Physics {
+          density -1
+          mass 0.034
+          centerOfMass [
+            0 0 -0.01325
+          ]
+          inertiaMatrix [
+            1.20063e-05 1.20063e-05 2.00404e-05
+            -8.31331e-37 1.64094e-36 7.55814e-38
+          ]
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 1 0 -4e-06
+        anchor -0.082773 0.061126 -0.050409
+      }
+      device [
+        RotationalMotor {
+          name "right_axle"
+        }
+        PositionSensor {
+          name "right_axle_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation -0.09352910364901794 0.06179413682871697 -0.05040745686529774
+        rotation 0.0005871647749536163 0.9999997209770686 -0.0004618260627469289 1.5605173379713293
+        children [
+          Pose {
+            translation 0.464529 -0.028654 -0.0135
+            children [
+              Shape {
+                appearance DEF right_wheel_material PBRAppearance {
+                  baseColor 0.176471 0.654902 0.937255
+                  roughness 1
+                  metalness 0
+                }
+                geometry DEF right_wheel Mesh {
+                  url [
+                    "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_wheel.stl"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+        name "right_wheel"
+        contactMaterial "rubber"
+        boundingObject Cylinder {
+          height 0.0265
+          radius 0.03435
+        }
+        physics Physics {
+          density -1
+          mass 0.034
+          centerOfMass [
+            0 0 -0.01325
+          ]
+          inertiaMatrix [
+            1.20063e-05 1.20063e-05 2.00404e-05
+            1.77587e-36 1.38229e-36 -4.2158e-37
+          ]
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 0 1
+        anchor -0.0015 -0.098 -0.0507
+      }
+      device [
+        PositionSensor {
+          name "front_swivel_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation -0.0015 -0.0950575 -0.0507
+        rotation -0.0659892589348391 -0.9978148885949268 -0.0032963318286535082 0.0003464150054442912
+        children [
+          Pose {
+            translation 0.343294 -0.190212 0
+            rotation 1 0 0 3.14159
+            children [
+              Shape {
+                appearance DEF front_wheel_lower_joint_material PBRAppearance {
+                  baseColor 0.647059 0.647059 0.647059
+                  roughness 1
+                  metalness 0
+                }
+                geometry DEF front_wheel_lower_joint Mesh {
+                  url [
+                    "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_lower_joint.stl"
+                  ]
+                }
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              axis 1 3e-06 4e-06
+              anchor 0 0.00965 -0.017113
+            }
+            device [
+              PositionSensor {
+                name "front_axle_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation 5.345427261681246e-06 0.009649098732336743 -0.0170962966861084
+              rotation -0.7070552906995713 -2.1727002447826203e-05 -0.7071582675905602 3.1415496132833916
+              children [
+                Pose {
+                  translation 0.344734 -0.122278 0.00625
+                  rotation 1 0 0 3.14159
+                  children [
+                    Shape {
+                      appearance DEF front_wheel_material PBRAppearance {
+                        baseColor 0.247059 0.247059 0.247059
+                        roughness 1
+                        metalness 0
+                      }
+                      geometry DEF front_wheel Mesh {
+                        url [
+                          "/home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel.stl"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "front_wheel"
+              contactMaterial "rubber"
+              boundingObject Cylinder {
+                height 0.0123
+                radius 0.01225
+              }
+              physics Physics {
+              }
+            }
+          }
+        ]
+        name "front_wheel_lower_joint"
+        contactMaterial "metal"
+        boundingObject Pose {
+          translation 0 0 -0.0005
+          children [
+            Box {
+              size 0.0197 0.0273 0.0012
+            }
+          ]
+        }
+        physics Physics {
+        }
+      }
+    }
+  ]
+  name "rover"
+  boundingObject Group {
+    children [
+      Pose {
+        translation -0.0014 0.0421 -0.013
+        children [
+          Box {
+            size 0.0681 0.0577 0.0221
+          }
+        ]
+      }
+      Pose {
+        translation -0.001 0.012 -0.026
+        children [
+          Box {
+            size 0.15 0.252 0.003
+          }
+        ]
+      }
+    ]
+  }
+  physics Physics {
+    mass 0.688
+  }
+  controller "rover_controller"
+}

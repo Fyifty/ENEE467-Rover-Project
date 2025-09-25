@@ -1,0 +1,133 @@
+#VRML_SIM R2025a utf8
+# license: Apache License 2.0
+# license url: http://www.apache.org/licenses/LICENSE-2.0
+# This is a proto file for Webots for the diff_drive_robot
+# Extracted from: /home/enee-467-4/diff_drive_robot.urdf
+
+PROTO diff_drive_robot [
+  field  SFVec3f     translation     0 0 0
+  field  SFRotation  rotation        0 0 1 0
+  field  SFString    name            "diff_drive_robot"  # Is `Robot.name`.
+  field  SFString    controller      "void"              # Is `Robot.controller`.
+  field  MFString    controllerArgs  []                  # Is `Robot.controllerArgs`.
+  field  SFString    customData      ""                  # Is `Robot.customData`.
+  field  SFBool      supervisor      FALSE               # Is `Robot.supervisor`.
+  field  SFBool      synchronization TRUE                # Is `Robot.synchronization`.
+  field  SFBool      selfCollision   FALSE               # Is `Robot.selfCollision`.
+  field  SFBool      staticBase      TRUE                # Defines if the robot base should be pinned to the static environment.
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    controller IS controller
+    controllerArgs IS controllerArgs
+    customData IS customData
+    supervisor IS supervisor
+    synchronization IS synchronization
+    selfCollision IS selfCollision
+    children [
+      Pose {
+        translation 0.000000 0.000000 0.041500
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 0.500000 0.500000 0.500000
+              roughness 1.000000
+              metalness 0
+            }
+            geometry Cylinder {
+              radius 0.045
+              height 0.08
+            }
+          }
+        ]
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 1.000000 0.000001 -0.000001
+          anchor 0.045000 0.000000 0.025000
+        }
+        device [
+          RotationalMotor {
+            name "motor 2"
+            maxVelocity 10.0
+            maxTorque 10.0
+          }
+          PositionSensor {
+            name "motor 2_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation 0.045000 0.000000 0.025000
+          rotation -0.000000 1.000000 -0.000000 4.712386
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.500000 0.500000 0.500000
+                roughness 1.000000
+                metalness 0
+              }
+              geometry Cylinder {
+                radius 0.025
+                height 0.01
+              }
+            }
+          ]
+          name "solid(1)"
+          boundingObject Cylinder {
+            radius 0.025
+            height 0.01
+          }
+          physics Physics {
+          }
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 1.000000 0.000000 -0.000000
+          anchor -0.045000 0.000000 0.025000
+        }
+        device [
+          RotationalMotor {
+            name "motor 1"
+            maxVelocity 10.0
+            maxTorque 10.0
+          }
+          PositionSensor {
+            name "motor 1_sensor"
+          }
+        ]
+        endPoint Solid {
+          translation -0.045000 0.000000 0.025000
+          rotation -0.000000 -1.000000 0.000000 1.570795
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.500000 0.500000 0.500000
+                roughness 1.000000
+                metalness 0
+              }
+              geometry Cylinder {
+                radius 0.025
+                height 0.01
+              }
+            }
+          ]
+          name "solid"
+          boundingObject Cylinder {
+            radius 0.025
+            height 0.01
+          }
+          physics Physics {
+          }
+        }
+      }
+    ]
+    name IS name
+    boundingObject Cylinder {
+      radius 0.045
+      height 0.08
+    }
+  }
+}
