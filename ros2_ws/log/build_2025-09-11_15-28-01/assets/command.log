@@ -1,0 +1,4 @@
+Invoking command in '/home/enee-467-4/ros2_ws/build/assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/enee-467-4/ros2_ws/build/assets -- -j16 -l16
+Invoked command in '/home/enee-467-4/ros2_ws/build/assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/enee-467-4/ros2_ws/build/assets -- -j16 -l16
+Invoking command in '/home/enee-467-4/ros2_ws/build/assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/enee-467-4/ros2_ws/build/assets
+Invoked command in '/home/enee-467-4/ros2_ws/build/assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/enee-467-4/ros2_ws/build/assets

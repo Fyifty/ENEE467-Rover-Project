@@ -1,0 +1,51 @@
+[0.007s] Invoking command in '/home/enee-467-4/ros2_ws/build/assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/enee-467-4/ros2_ws/build/assets -- -j16 -l16
+[0.032s] Invoked command in '/home/enee-467-4/ros2_ws/build/assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/enee-467-4/ros2_ws/build/assets -- -j16 -l16
+[0.040s] Invoking command in '/home/enee-467-4/ros2_ws/build/assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/enee-467-4/ros2_ws/build/assets
+[0.048s] -- Install configuration: ""
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/ament_index/resource_index/package_run_dependencies/assets
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/ament_index/resource_index/parent_prefix_path/assets
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/environment/ament_prefix_path.sh
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/environment/ament_prefix_path.dsv
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/environment/path.sh
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/environment/path.dsv
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/local_setup.bash
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/local_setup.sh
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/local_setup.zsh
+[0.049s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/local_setup.dsv
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/package.dsv
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/ament_index/resource_index/packages/assets
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/cmake/assetsConfig.cmake
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/cmake/assetsConfig-version.cmake
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/package.xml
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/esp32.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor_bracket.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_lower_joint.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/esp32.part
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/motor_controller.part
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/motor_controller.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_bracket.part
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_wheel.part
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_upper_joint.part
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_wheel.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/voltage_regulator.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor_bracket.part
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/base_plate.stl
+[0.050s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel.part
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/battery.part
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_wheel.stl
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor.part
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor.part
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor.stl
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor_bracket.part
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/base_plate.part
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_bracket.stl
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_upper_joint.stl
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor_bracket.stl
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/battery.stl
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_wheel.part
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_lower_joint.part
+[0.051s] -- Up-to-date: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/voltage_regulator.part
+[0.052s] Invoked command in '/home/enee-467-4/ros2_ws/build/assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/enee-467-4/ros2_ws/build/assets

@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/enee-467-4/ros2_ws/build/assets
+-- Install configuration: ""
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/ament_index/resource_index/package_run_dependencies/assets
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/ament_index/resource_index/parent_prefix_path/assets
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/environment/ament_prefix_path.sh
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/environment/ament_prefix_path.dsv
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/environment/path.sh
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/environment/path.dsv
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/local_setup.bash
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/local_setup.sh
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/local_setup.zsh
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/local_setup.dsv
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/package.dsv
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/ament_index/resource_index/packages/assets
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/cmake/assetsConfig.cmake
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/cmake/assetsConfig-version.cmake
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/package.xml
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/esp32.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor_bracket.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_lower_joint.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/esp32.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/motor_controller.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/motor_controller.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_bracket.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_wheel.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_upper_joint.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_wheel.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/voltage_regulator.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor_bracket.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/base_plate.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/battery.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_wheel.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/right_motor.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor_bracket.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/base_plate.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_bracket.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_upper_joint.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_motor_bracket.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/battery.stl
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/left_wheel.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/front_wheel_lower_joint.part
+-- Installing: /home/enee-467-4/ros2_ws/install/assets/share/assets/meshes/voltage_regulator.part
